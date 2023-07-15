@@ -1,0 +1,50 @@
+baseURL = "https://yashbhangale.github.io/hugo.github.io/"
+languageCode = "zh-cn"
+title = "Yash's blog"
+theme = "github-style"
+googleAnalytics = "UA-123456-789"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Yash"
+  description = "In solitude, where we are least alone."
+  github = "Yash2333"
+  facebook = "Yash2333"
+  twitter = "Yash2333"
+  linkedin = "Yash2333"
+  instagram = "Yash2333"
+  tumblr = "Yash2333"
+  email = "Yash2333@gmail.com"
+  url = "https://Yash2333.com"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😀"
+  favicon = "/images/github.png"
+  location = "India"
+  enableGitalk = true
+
+  [params.gitalk]
+    clientID = "Your client ID" 
+    clientSecret = "Your client secret" 
+    repo = "repo"
+    owner = "Yash2333"
+    admin = "Yash2333"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/Yash2333"
+  [[params.links]]
+    title = "Link2"
+    href = "https://Yash2333.com"
+    icon = "https://Yash2333.com/images/avatar.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
